@@ -5,7 +5,7 @@
     <title>ABHISHEK YOUTUBE</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="mode">
     <nav class="flex-div">
         <div class="nav-left flex-div">
             <img src="images/menu.png" alt="" class="menu-icon">
@@ -19,6 +19,7 @@
             <img src="images/voice-search.png" alt="" class="mic-icon">
         </div>
         <div class="nav-right flex-div">
+            <button onclick="modechanger()" id="modebutton"><img src="images/lightmode.svg" alt="lightmode"></button>
             <img src="images/upload.png" alt="">
             <img src="images/more.png" alt="">
             <img src="images/notification.png" alt="">
@@ -28,24 +29,24 @@
 <!-----------sidebar------------>
     <div class="sidebar">
         <div class="shortcut-links">
-            <a href="#"><img src="images/home.png" alt=""><p>Home</p></a>
-            <a href="#"><img src="images/explore.png" alt=""><p>Explore</p></a>
-            <a href="#"><img src="images/subscriprion.png" alt=""><p>Subscriprion</p></a>
-            <a href="#"><img src="images/library.png" alt=""><p>Library</p></a>
-            <a href="#"><img src="images/history.png" alt=""><p>History</p></a>
-            <a href="#"><img src="images/cast.png" alt=""><p>Cast Videos</p></a>
-            <a href="#"><img src="images/playlist.png" alt=""><p>Playlist</p></a>
-            <a href="#"><img src="images/messages.png" alt=""><p>Messages</p></a>
-            <a href="#"><img src="images/show-more.png" alt=""><p>Show More</p></a>
+            <a href="#" class="navLeftLinks"><img src="images/home.png" alt=""><p>Home</p></a>
+            <a href="#" class="navLeftLinks"><img src="images/explore.png" alt=""><p>Explore</p></a>
+            <a href="#" class="navLeftLinks"><img src="images/subscriprion.png" alt=""><p>Subscriprion</p></a>
+            <a href="#" class="navLeftLinks"><img src="images/library.png" alt=""><p>Library</p></a>
+            <a href="#" class="navLeftLinks"><img src="images/history.png" alt=""><p>History</p></a>
+            <a href="#" class="navLeftLinks"><img src="images/cast.png" alt=""><p>Cast Videos</p></a>
+            <a href="#" class="navLeftLinks"><img src="images/playlist.png" alt=""><p>Playlist</p></a>
+            <a href="#" class="navLeftLinks"><img src="images/messages.png" alt=""><p>Messages</p></a>
+            <a href="#" class="navLeftLinks"><img src="images/show-more.png" alt=""><p>Show More</p></a>
             <hr>
         </div>
         <div class="subscribed-list">
             <h3>SUBSCRIBED</h3>
-            <a href="#"><img src="images/Jack.png" alt=""><p>SHIVAM SINGH</p></a>
-            <a href="#"><img src="images/simon.png" alt=""><p>ABHISHEK SINGH</p></a>
-            <a href="#"><img src="images/tom.png" alt=""><p>ABHISHEK KUMAR</p></a>
-            <a href="#"><img src="images/megan.png" alt=""><p>ABHISHEK SINGHGH</p></a>
-            <a href="#"><img src="images/cameron.png" alt=""><p>MANAS PANDEY</p></a>
+            <a href="#" class="navLeftLinks"><img src="images/Jack.png" alt=""><p>SHIVAM SINGH</p></a>
+            <a href="#" class="navLeftLinks"><img src="images/simon.png" alt=""><p>ABHISHEK SINGH</p></a>
+            <a href="#" class="navLeftLinks"><img src="images/tom.png" alt=""><p>ABHISHEK KUMAR</p></a>
+            <a href="#" class="navLeftLinks"><img src="images/megan.png" alt=""><p>ABHISHEK SINGHGH</p></a>
+            <a href="#" class="navLeftLinks"><img src="images/cameron.png" alt=""><p>MANAS PANDEY</p></a>
         </div>
         
     </div>
@@ -61,7 +62,7 @@
                 <div class="flex-div">
                     <img src="images/jack.png" alt="">
                     <div class="vid-info">
-                        <a href="play-video.html">Best channel </a>
+                        <a href="play-video.html" class="navLeftLinks">Best channel </a>
                         <p>abhi tech</p>
                         <p>18k Views &bull; 2 days ago</p>
                     </div>
@@ -72,7 +73,7 @@
                 <div class="flex-div">
                     <img src="images/jack.png" alt="">
                     <div class="vid-info">
-                        <a href="">Best channel </a>
+                        <a href="" class="navLeftLinks">Best channel </a>
                         <p>abhi tech</p>
                         <p>15k Views &bull; 2 days ago</p>
                     </div>
@@ -83,7 +84,7 @@
                 <div class="flex-div">
                     <img src="images/jack.png" alt="">
                     <div class="vid-info">
-                        <a href="">Best channel </a>
+                        <a href="" class="navLeftLinks">Best channel </a>
                         <p>abhi tech</p>
                         <p>15k Views &bull; 2 days ago</p>
                     </div>
@@ -94,7 +95,7 @@
                 <div class="flex-div">
                     <img src="images/jack.png" alt="">
                     <div class="vid-info">
-                        <a href="">Best channel </a>
+                        <a href="" class="navLeftLinks">Best channel </a>
                         <p>abhi tech</p>
                         <p>15k Views &bull; 2 days ago</p>
                     </div>
@@ -105,7 +106,7 @@
                 <div class="flex-div">
                     <img src="images/jack.png" alt="">
                     <div class="vid-info">
-                        <a href="">Best channel </a>
+                        <a href="" class="navLeftLinks">Best channel </a>
                         <p>abhi tech</p>
                         <p>15k Views &bull; 2 days ago</p>
                     </div>
@@ -116,7 +117,7 @@
                 <div class="flex-div">
                     <img src="images/jack.png" alt="">
                     <div class="vid-info">
-                        <a href="">Best channel </a>
+                        <a href="" class="navLeftLinks">Best channel </a>
                         <p>abhi tech</p>
                         <p>15k Views &bull; 2 days ago</p>
                     </div>
@@ -127,7 +128,7 @@
                 <div class="flex-div">
                     <img src="images/jack.png" alt="">
                     <div class="vid-info">
-                        <a href="">Best channel </a>
+                        <a href="" class="navLeftLinks">Best channel </a>
                         <p>abhi tech</p>
                         <p>15k Views &bull; 2 days ago</p>
                     </div>
@@ -138,7 +139,7 @@
                 <div class="flex-div">
                     <img src="images/jack.png" alt="">
                     <div class="vid-info">
-                        <a href="">Best channel </a>
+                        <a href="" class="navLeftLinks">Best channel </a>
                         <p>abhi tech</p>
                         <p>15k Views &bull; 2 days ago</p>
                     </div>
@@ -149,7 +150,7 @@
                 <div class="flex-div">
                     <img src="images/jack.png" alt="">
                     <div class="vid-info">
-                        <a href="">Best channel </a>
+                        <a href="" class="navLeftLinks">Best channel </a>
                         <p>abhi tech</p>
                         <p>15k Views &bull; 2 days ago</p>
                     </div>
@@ -160,7 +161,7 @@
                 <div class="flex-div">
                     <img src="images/jack.png" alt="">
                     <div class="vid-info">
-                        <a href="">Best channel </a>
+                        <a href="" class="navLeftLinks">Best channel </a>
                         <p>abhi tech</p>
                         <p>15k Views &bull; 2 days ago</p>
                     </div>
@@ -171,7 +172,7 @@
                 <div class="flex-div">
                     <img src="images/jack.png" alt="">
                     <div class="vid-info">
-                        <a href="">Best channel </a>
+                        <a href="" class="navLeftLinks">Best channel </a>
                         <p>abhi tech</p>
                         <p>15k Views &bull; 2 days ago</p>
                     </div>
@@ -182,7 +183,7 @@
                 <div class="flex-div">
                     <img src="images/jack.png" alt="">
                     <div class="vid-info">
-                        <a href="">Best channel </a>
+                        <a href="" class="navLeftLinks">Best channel </a>
                         <p>abhi tech</p>
                         <p>15k Views &bull; 2 days ago</p>
                     </div>
@@ -193,7 +194,7 @@
                 <div class="flex-div">
                     <img src="images/jack.png" alt="">
                     <div class="vid-info">
-                        <a href="">Best channel </a>
+                        <a href="" class="navLeftLinks">Best channel </a>
                         <p>abhi tech</p>
                         <p>15k Views &bull; 2 days ago</p>
                     </div>
@@ -204,7 +205,7 @@
                 <div class="flex-div">
                     <img src="images/jack.png" alt="">
                     <div class="vid-info">
-                        <a href="">Best channel </a>
+                        <a href="" class="navLeftLinks">Best channel </a>
                         <p>abhi tech</p>
                         <p>15k Views &bull; 2 days ago</p>
                     </div>
@@ -215,7 +216,7 @@
                 <div class="flex-div">
                     <img src="images/jack.png" alt="">
                     <div class="vid-info">
-                        <a href="">Best channel </a>
+                        <a href="" class="navLeftLinks">Best channel </a>
                         <p>abhi tech</p>
                         <p>15k Views &bull; 2 days ago</p>
                     </div>
@@ -226,7 +227,7 @@
                 <div class="flex-div">
                     <img src="images/jack.png" alt="">
                     <div class="vid-info">
-                        <a href="">Best channel </a>
+                        <a href="" class="navLeftLinks">Best channel </a>
                         <p>abhi tech</p>
                         <p>15k Views &bull; 2 days ago</p>
                     </div>

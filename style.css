@@ -13,6 +13,7 @@ img{
 }
 
 .flex-div{
+    color: white;
     display: flex;
     align-items: center;
 }
@@ -21,7 +22,7 @@ nav{
     padding: 10px 2%;
     justify-content: space-between;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    background: #fff;
+    background: white;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -60,13 +61,20 @@ nav{
 .nav-middle .search-box  img{
     width: 15px;
 }
+#modebutton{
+    width: 30px;
+    background-color: transparent;
+    border: none;
+    margin-right: 15px;
+
+}
 
 
 /* --------------nav end here---------- */
 
 
 .sidebar{
-    background: #fff;
+    background: ;
     width: 15%;
     height: 100vh;
     position: fixed;
@@ -95,7 +103,7 @@ nav{
 .sidebar hr{
     border: 0;
     height: 1px;
-    background: #ccc;
+    background: ;
     width: 85%;
 }
 .subscribed-list h3{
@@ -129,7 +137,7 @@ nav{
 
 /* ---------------sidebar-end-here------------ */
 .container{
-    background: #f9f9f9;
+    background: ;
     padding-left: 17%;
     padding-right: 2%;
     padding-top: 20px;
@@ -169,7 +177,7 @@ nav{
     border-radius: 50%;
 }
 .vid-info{
-    color: #5a5a5a;
+    /* color: #5a5a5a; */
     font-size: 13px;
 }
 .vid-info a{
@@ -282,7 +290,7 @@ nav{
 .play-video hr{
     border: 0;
     height: 1px;
-    background: #ccc;
+    background: ;
     margin: 10px 0;
 }
 .publisher{
