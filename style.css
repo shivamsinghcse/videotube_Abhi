@@ -13,7 +13,7 @@ img{
 }
 
 .flex-div{
-    color: white;
+    /* color: white; */
     display: flex;
     align-items: center;
 }
@@ -75,11 +75,11 @@ nav{
 
 .sidebar{
     background: ;
-    width: 15%;
+    width: 20%;
     height: 100vh;
     position: fixed;
     top: 0;
-    padding-left: 2%;
+    padding-left: 10px;
     padding-top: 80px;
 }
 .small-sidebar{
@@ -121,7 +121,7 @@ nav{
 .subscribed-list a img{
     width: 25px;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-right: 5px;
 }
 
 .small-sidebar a p{
